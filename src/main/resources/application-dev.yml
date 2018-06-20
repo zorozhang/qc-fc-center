@@ -1,20 +1,37 @@
 server:
   port: 8080
 
+#财务系统数据源
 spring:
-    datasource:
-        name: qcfc
-        url: jdbc:mysql://47.100.168.19:3306/qcfc
-        username: root
-        password: 8pFVkCVVkpfUSJOw
-        driver-class-name: com.mysql.jdbc.Driver
+  datasource1:
+      readSize: 1
+      type: com.alibaba.druid.pool.DruidDataSource
+      jdbc-url: jdbc:mysql://47.100.168.19:3306/qcfc
+      username: root
+      password: 8pFVkCVVkpfUSJOw
+      driver-class-name: com.mysql.jdbc.Driver
+      
+  datasource2:   
+     readSize: 1
+     type: com.alibaba.druid.pool.DruidDataSource
+     jdbc-url: jdbc:mysql://47.100.168.19:3306/heqie
+     username: root
+     password: 8pFVkCVVkpfUSJOw
+     driver-class-name: com.mysql.jdbc.Driver 
+
+#业务系统数据源
+jpa:
+    show-sql: true
+    database-platform: org.hibernate.dialect.MySQL5Dialect
+    hibernate:
+     ddl-auto: update      
+     
 mybatis:
   mapper-locations: classpath:mapping/*.xml
   type-aliases-package: com.fc.center.model
   
 logging:
    level:
-     org.springframework.web: DEBUG
-     org.hibernate: ERROR
+    com.fc.center.mapper: trace
 
  

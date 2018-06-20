@@ -26,8 +26,8 @@ public class AdminController {
 	   public ResultVO<Admin> selectOne(int id) {
 		   ResultVO<Admin> sd = new ResultVO<>();
 		   logger.info("logback 成功了");
-	        logger.error("logback 成功了");
-	        logger.debug("logback 成功了");
+	       logger.error("logback 成功了");
+	       logger.debug("logback 成功了");
 		   sd.setData(adminServiceImpl.selectByPrimaryKey(id));
 		   sd.setMsg("s");
 		   sd.setCode(0);
