@@ -1,0 +1,15 @@
+server:
+  port: 8080
+
+spring:
+    datasource:
+        name: qcfc
+        url: jdbc:mysql://47.100.168.19:3306/qcfc
+        username: root
+        password: 8pFVkCVVkpfUSJOw
+        driver-class-name: com.mysql.jdbc.Driver
+mybatis:
+  mapper-locations: classpath:mapping/*.xml
+  type-aliases-package: com.fc.center.model
+
+ 

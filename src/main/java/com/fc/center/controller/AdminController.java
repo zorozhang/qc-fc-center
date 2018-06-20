@@ -1,14 +1,15 @@
 package com.fc.center.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
 
+import com.fc.center.model.Admin;
 import com.fc.center.service.impl.AdminServiceImpl;
+import com.fc.center.vo.ResultVO;
 
-@Controller
+@RestController
 @RequestMapping(value = "/admin")
 public class AdminController {
 
@@ -16,10 +17,13 @@ public class AdminController {
 	   private AdminServiceImpl adminServiceImpl;
 	   
 	   
-	   @ResponseBody
 	   @GetMapping("/selectOne")
-	   public Object selectOne(int id) {
-		    return adminServiceImpl.selectByPrimaryKey(id);
+	   public ResultVO<Admin> selectOne(int id) {
+		   ResultVO<Admin> sd = new ResultVO<>();
+		   sd.setData(adminServiceImpl.selectByPrimaryKey(id));
+		   sd.setMsg("s");
+		   sd.setCode(0);
+		   return sd;
 	   }
 	   
 }
