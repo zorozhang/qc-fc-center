@@ -2771,3 +2771,132 @@ com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'heqie.admin' d
 17:36:59.699 [RMI TCP Connection(7)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
 17:36:59.701 [RMI TCP Connection(7)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 17:36:59.709 [RMI TCP Connection(7)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+17:42:46.561 [restartedMain] INFO  com.fc.center.QcFcCenterApplication - Starting QcFcCenterApplication on EDZ-20180420LMP with PID 11244 (D:\stsworkspace\qc-fc-center\target\classes started by Administrator in D:\stsworkspace\qc-fc-center)
+17:42:46.563 [restartedMain] INFO  com.fc.center.QcFcCenterApplication - The following profiles are active: dev
+17:42:46.637 [restartedMain] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@319b16c8: startup date [Wed Jun 20 17:42:46 CST 2018]; root of context hierarchy
+17:42:48.190 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$416112a6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:42:48.841 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+17:42:48.858 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+17:42:48.870 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+17:42:48.871 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.31
+17:42:48.879 [localhost-startStop-1] INFO  o.a.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_77\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_77/bin/server;C:/Program Files/Java/jre1.8.0_77/bin;C:/Program Files/Java/jre1.8.0_77/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Users\Administrator\Downloads\elasticsearch_windows_auto_install-master\curl\win64;C:\Users\Administrator\Downloads\elasticsearch_windows_auto_install-master\curl\win64;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files\Java\jdk1.7.0_79\jre\bin;D:\apache-maven-3.3.9\bin;C:\Program Files\nodejs\;C:\Program Files\OpenVPN\bin;D:\Program Files\Git\cmd;C:\Program Files\nodejs\node_global;D:\Program Files\Microsoft VS Code\bin;D:\迅雷下载\spring-tool-suite-3.9.4.RELEASE-e4.7.3a-win32-x86_64\sts-bundle\sts-3.9.4.RELEASE;;.]
+17:42:49.019 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:42:49.019 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2382 ms
+17:42:49.278 [localhost-startStop-1] INFO  o.s.b.w.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+17:42:49.284 [localhost-startStop-1] INFO  o.s.b.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+17:42:49.285 [localhost-startStop-1] INFO  o.s.b.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+17:42:49.285 [localhost-startStop-1] INFO  o.s.b.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+17:42:49.285 [localhost-startStop-1] INFO  o.s.b.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+17:42:49.477 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17:42:50.006 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17:42:50.071 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+17:42:50.084 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+17:42:50.171 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.17.Final}
+17:42:50.173 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+17:42:50.223 [restartedMain] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+17:42:50.366 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+17:42:50.609 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+17:42:51.053 [restartedMain] INFO  o.s.w.s.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17:42:51.507 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@319b16c8: startup date [Wed Jun 20 17:42:46 CST 2018]; root of context hierarchy
+17:42:51.550 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17:42:51.625 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/admin/selectOne],methods=[GET]}" onto public com.fc.center.vo.ResultVO<com.fc.center.model.Admin> com.fc.center.controller.AdminController.selectOne(int)
+17:42:51.629 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+17:42:51.630 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+17:42:51.699 [restartedMain] INFO  o.s.w.s.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17:42:51.699 [restartedMain] INFO  o.s.w.s.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17:42:52.298 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+17:42:52.353 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+17:42:52.354 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'datasource1' has been autodetected for JMX exposure
+17:42:52.354 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'datasource2' has been autodetected for JMX exposure
+17:42:52.363 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'datasource1': registering with JMX server as MBean [com.zaxxer.hikari:name=datasource1,type=HikariDataSource]
+17:42:52.365 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'datasource2': registering with JMX server as MBean [com.zaxxer.hikari:name=datasource2,type=HikariDataSource]
+17:42:52.377 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+17:42:52.390 [restartedMain] INFO  o.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+17:42:52.413 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+17:42:52.421 [restartedMain] INFO  com.fc.center.QcFcCenterApplication - Started QcFcCenterApplication in 6.366 seconds (JVM running for 7.281)
+17:42:54.797 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+17:42:54.797 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+17:42:54.829 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 32 ms
+17:42:54.936 [http-nio-8080-exec-2] INFO  com.fc.center.controller.AdminController - logback 成功了
+17:42:54.936 [http-nio-8080-exec-2] ERROR com.fc.center.controller.AdminController - logback 成功了
+17:42:54.981 [http-nio-8080-exec-2] DEBUG c.f.c.m.AdminMapper.selectByPrimaryKey - ==>  Preparing: select id, name, password, realName, age, phoneNumber, headPicture, addDate, updateDate, state, userName from admin where id = ? 
+17:42:54.997 [http-nio-8080-exec-2] DEBUG c.f.c.m.AdminMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
+17:42:55.027 [http-nio-8080-exec-2] TRACE c.f.c.m.AdminMapper.selectByPrimaryKey - <==    Columns: id, name, password, realName, age, phoneNumber, headPicture, addDate, updateDate, state, userName
+17:42:55.027 [http-nio-8080-exec-2] TRACE c.f.c.m.AdminMapper.selectByPrimaryKey - <==        Row: 1, 1, 123456, sdsd, 12, 122, 1, 2018-06-20, null, 0, admin
+17:42:55.029 [http-nio-8080-exec-2] DEBUG c.f.c.m.AdminMapper.selectByPrimaryKey - <==      Total: 1
+17:42:56.587 [http-nio-8080-exec-3] INFO  com.fc.center.controller.AdminController - logback 成功了
+17:42:56.587 [http-nio-8080-exec-3] ERROR com.fc.center.controller.AdminController - logback 成功了
+17:42:56.628 [http-nio-8080-exec-3] DEBUG c.f.c.m.AdminMapper.selectByPrimaryKey - ==>  Preparing: select id, name, password, realName, age, phoneNumber, headPicture, addDate, updateDate, state, userName from admin where id = ? 
+17:42:56.628 [http-nio-8080-exec-3] DEBUG c.f.c.m.AdminMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
+17:42:56.653 [http-nio-8080-exec-3] TRACE c.f.c.m.AdminMapper.selectByPrimaryKey - <==    Columns: id, name, password, realName, age, phoneNumber, headPicture, addDate, updateDate, state, userName
+17:42:56.653 [http-nio-8080-exec-3] TRACE c.f.c.m.AdminMapper.selectByPrimaryKey - <==        Row: 1, 1, 123456, sdsd, 12, 122, 1, 2018-06-20, null, 0, admin
+17:42:56.654 [http-nio-8080-exec-3] DEBUG c.f.c.m.AdminMapper.selectByPrimaryKey - <==      Total: 1
+17:43:29.189 [http-nio-8080-exec-1] INFO  com.fc.center.controller.AdminController - logback 成功了
+17:43:29.189 [http-nio-8080-exec-1] ERROR com.fc.center.controller.AdminController - logback 成功了
+17:43:29.225 [http-nio-8080-exec-1] DEBUG c.f.c.m.AdminMapper.selectByPrimaryKey - ==>  Preparing: select id, name, password, realName, age, phoneNumber, headPicture, addDate, updateDate, state, userName from admin where id = ? 
+17:43:29.225 [http-nio-8080-exec-1] DEBUG c.f.c.m.AdminMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
+17:43:29.241 [http-nio-8080-exec-1] TRACE c.f.c.m.AdminMapper.selectByPrimaryKey - <==    Columns: id, name, password, realName, age, phoneNumber, headPicture, addDate, updateDate, state, userName
+17:43:29.241 [http-nio-8080-exec-1] TRACE c.f.c.m.AdminMapper.selectByPrimaryKey - <==        Row: 1, 1, 123456, sdsd, 12, 122, 1, 2018-06-20, null, 0, admin
+17:43:29.242 [http-nio-8080-exec-1] DEBUG c.f.c.m.AdminMapper.selectByPrimaryKey - <==      Total: 1
+18:31:36.026 [RMI TCP Connection(56)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+18:31:36.026 [RMI TCP Connection(56)-127.0.0.1] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@319b16c8: startup date [Wed Jun 20 17:42:46 CST 2018]; root of context hierarchy
+18:31:36.030 [RMI TCP Connection(56)-127.0.0.1] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+18:31:36.031 [RMI TCP Connection(56)-127.0.0.1] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+18:31:36.032 [RMI TCP Connection(56)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+18:31:36.033 [RMI TCP Connection(56)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+18:31:36.042 [RMI TCP Connection(56)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+18:31:46.739 [restartedMain] INFO  com.fc.center.QcFcCenterApplication - Starting QcFcCenterApplication on EDZ-20180420LMP with PID 11132 (D:\stsworkspace\qc-fc-center\target\classes started by Administrator in D:\stsworkspace\qc-fc-center)
+18:31:46.741 [restartedMain] INFO  com.fc.center.QcFcCenterApplication - The following profiles are active: dev
+18:31:46.902 [restartedMain] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3a2e14bf: startup date [Wed Jun 20 18:31:46 CST 2018]; root of context hierarchy
+18:31:48.874 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d131e6eb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18:31:49.601 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+18:31:49.620 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+18:31:49.633 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+18:31:49.633 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.31
+18:31:49.641 [localhost-startStop-1] INFO  o.a.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_77\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_77/bin/server;C:/Program Files/Java/jre1.8.0_77/bin;C:/Program Files/Java/jre1.8.0_77/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Users\Administrator\Downloads\elasticsearch_windows_auto_install-master\curl\win64;C:\Users\Administrator\Downloads\elasticsearch_windows_auto_install-master\curl\win64;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files\Java\jdk1.7.0_79\jre\bin;D:\apache-maven-3.3.9\bin;C:\Program Files\nodejs\;C:\Program Files\OpenVPN\bin;D:\Program Files\Git\cmd;C:\Program Files\nodejs\node_global;D:\Program Files\Microsoft VS Code\bin;D:\迅雷下载\spring-tool-suite-3.9.4.RELEASE-e4.7.3a-win32-x86_64\sts-bundle\sts-3.9.4.RELEASE;;.]
+18:31:49.798 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+18:31:49.798 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2897 ms
+18:31:50.113 [localhost-startStop-1] INFO  o.s.b.w.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+18:31:50.120 [localhost-startStop-1] INFO  o.s.b.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+18:31:50.120 [localhost-startStop-1] INFO  o.s.b.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+18:31:50.121 [localhost-startStop-1] INFO  o.s.b.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+18:31:50.121 [localhost-startStop-1] INFO  o.s.b.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+18:31:50.363 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+18:31:50.893 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+18:31:50.971 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+18:31:50.988 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+18:31:51.094 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.17.Final}
+18:31:51.097 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+18:31:51.171 [restartedMain] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+18:31:51.370 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+18:31:51.661 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+18:31:52.234 [restartedMain] INFO  o.s.w.s.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+18:31:52.826 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3a2e14bf: startup date [Wed Jun 20 18:31:46 CST 2018]; root of context hierarchy
+18:31:52.907 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+18:31:52.991 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/admin/selectOne],methods=[GET]}" onto public com.fc.center.vo.ResultVO<com.fc.center.model.Admin> com.fc.center.controller.AdminController.selectOne(int)
+18:31:52.997 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+18:31:52.998 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+18:31:53.070 [restartedMain] INFO  o.s.w.s.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+18:31:53.070 [restartedMain] INFO  o.s.w.s.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+18:31:53.795 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+18:31:53.863 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+18:31:53.865 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'datasource1' has been autodetected for JMX exposure
+18:31:53.865 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'datasource2' has been autodetected for JMX exposure
+18:31:53.879 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'datasource1': registering with JMX server as MBean [com.zaxxer.hikari:name=datasource1,type=HikariDataSource]
+18:31:53.881 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'datasource2': registering with JMX server as MBean [com.zaxxer.hikari:name=datasource2,type=HikariDataSource]
+18:31:53.896 [restartedMain] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+18:31:53.908 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+18:31:53.922 [restartedMain] INFO  o.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+18:31:53.954 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+18:31:53.962 [restartedMain] INFO  com.fc.center.QcFcCenterApplication - Started QcFcCenterApplication in 8.027 seconds (JVM running for 9.398)
+18:32:43.041 [RMI TCP Connection(8)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+18:32:43.041 [RMI TCP Connection(8)-127.0.0.1] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3a2e14bf: startup date [Wed Jun 20 18:31:46 CST 2018]; root of context hierarchy
+18:32:43.045 [RMI TCP Connection(8)-127.0.0.1] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+18:32:43.046 [RMI TCP Connection(8)-127.0.0.1] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+18:32:43.048 [RMI TCP Connection(8)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+18:32:43.050 [RMI TCP Connection(8)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+18:32:43.057 [RMI TCP Connection(8)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
