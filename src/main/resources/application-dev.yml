@@ -11,5 +11,10 @@ spring:
 mybatis:
   mapper-locations: classpath:mapping/*.xml
   type-aliases-package: com.fc.center.model
+  
+logging:
+   level:
+     org.springframework.web: DEBUG
+     org.hibernate: ERROR
 
  
