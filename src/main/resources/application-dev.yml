@@ -33,5 +33,6 @@ mybatis:
 logging:
    level:
     com.fc.center.mapper: trace
-
+ 
+      
  
